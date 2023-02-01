@@ -171,6 +171,7 @@ contant {
 }
 .quoteFirst {
   &:hover {
+    cursor: pointer;
     background-image: url("../../photos/bonfire.JPG");
     background-position: center;
     background-size: cover;
@@ -181,6 +182,7 @@ contant {
 }
 .quoteSecond {
   &:hover {
+    cursor: pointer;
     background-image: url("../../photos/songjeong.JPG");
     background-position: center;
     background-size: cover;
@@ -195,6 +197,7 @@ contant {
 .titles {
   @extend %contantTitles;
   &:hover {
+    cursor: pointer;
     .title {
       &:first-child {
         color: #dfcdaa;
